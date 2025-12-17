@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+   
+}
+
+/* LETRAS DE ENLACE NEGRAS Y SACAR EL SUBRAYADO */
+
+.elem_nav_bar a{
+
+    color: #000000;
+    text-decoration: none;
+
+}
+
+/* AL ELEMENTO DE LA BARRA DE NAVEGACION (LISTA) AL COLOAR EL MOUSE SE GENERA UNA RAYA NEGRA */
+
+nav li:hover{
+    
+    border-bottom: 2px solid #000000;
+     
+ }
+
+/* COLOR DEL BORDE DE LA BARRA DE NAVEGACION */
+
+ .nav_bar{
+
+    border-bottom: 2px solid #F2F2F2;
+}
+
+/* AL ACERCAR EL MOUSE EL LOGO DE IG SE COLOCA NEGRO */
+
+.icono_instagram i:hover{
+
+    color: #000000;
+
+}
+
+.link_logo img {
+
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.fondo_main{
+
+    
+    background-image: url(/ASSETS/IMG/foto_cv_d5.JPG);
+    background-size: cover;
+    background-position: center;
+  
+
+}
+
+.texto_i{
+
+   
+   border-top: 3px solid #000000;
+   border-bottom: 3px solid #000000;
+   margin: 150px 0px 80px 20px;
+   color: #F2F2F2;
+   text-align: center;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1.5rem;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+
+.cont_edu{
+
+background-color: #fcecf4;
+
+}
+
+.udec{
+
+    border-left: 2px solid #F2F2F2 ;
+    border-right: 2px solid #F2F2F2 ;
+}
+
+.img_colegio, .img_udec, .img_unab{
+
+    /* border: 2px solid #F2F2F2; */
+    background-color: #FFFFFF;
+    height: 320px;
+    margin-top: 5px;
+    border-radius: 100%;
+
+}
+
+.texto_udec, .texto_colegio, .texto_unab{
+
+    border-top: 2px solid #F2F2F2;
+}
+
+.infocap, .cflow, .enseña, .iec {
+
+    border-top: 2px solid #F2F2F2;
+}
+
+.recomendaciones1, .recomendaciones2{
+
+    background-color: #fcecf4;
+}
+.imagen_persona{
+
+    border: 3px solid #000000;
+    border-radius: 100%;
+    
+
+}
+
+.comentario {
+
+    width: 20rem;
+}
+
+.pie_pagina{
+
+    background-color: #000000;
+    color: #F2F2F2;
+    height: auto;
+}
